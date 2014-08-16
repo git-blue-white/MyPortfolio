@@ -40,6 +40,7 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
               {
                 resumeData.work1 && resumeData.work1.map((item) => {
+                  
                   return(
                     <div className="row item">
                        <div className="twelve columns">

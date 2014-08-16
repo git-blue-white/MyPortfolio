@@ -37,6 +37,7 @@ let resumeData = {
     ],
     "work1":[
       {
+        "markurl":"images/logo-gray.svg",
         "CompanyName":"Tree Stones",
         "specialization":"Tree stones is a e-commerce development company and they focus on web development, digital strategy, etc.",
         "YearOfLeaving":"ongoing",
