@@ -19,12 +19,13 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          {item.specialization}<br /><br />
+                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing} (graduated)</em></p>
                           <p>
                           {item.Achievements}
                           </p>
                        </div>
+                       <img alt="University Mark" src={`${item.imageurl}`} className="item-img"/>
                     </div>
                   )
                 })
@@ -38,7 +39,28 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.work && resumeData.work.map((item) => {
+                resumeData.work1 && resumeData.work1.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.CompanyName}</h3>
+                          <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+            <div className="nine columns main-col">
+              {
+                resumeData.work2 && resumeData.work2.map((item) => {
                   return(
                     <div className="row item">
                        <div className="twelve columns">
