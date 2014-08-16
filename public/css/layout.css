@@ -257,7 +257,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 2%; }
 
 .education, .work {
    margin-bottom: 48px;
@@ -286,7 +286,7 @@ ul#nav li.current a { color: #F06000; }
 .bars {
 	width: 95%;
 	float: left;
-	padding: 0;
+	padding: 0 5px;
 	text-align: left;
 }
 .bars .skills {
@@ -297,7 +297,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 20px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -318,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
+  	height: 20px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }

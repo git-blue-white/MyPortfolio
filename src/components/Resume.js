@@ -67,7 +67,7 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
-                          {item.specialization}
+                          {item.Workhistory}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements}
@@ -94,27 +94,45 @@ export default  class Resume extends Component {
                <p>
                {resumeData.skillsDescription}
                </p>
+              <div style={{display:'flex'}}>
+                <div className="bars">
 
-   				<div className="bars">
+                  <ul className="skills">
+                      {
+                        resumeData.skills && resumeData.skills.map((item) => {
+                          return(
+                            <li>
+                            <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                            </span><em>{item.skillname}</em>
+                            </li>
+                          )
+                        })
+                      }
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
+                  </ul>
 
-   					</ul>
+                </div>
+                <div className="bars">
 
-   				</div>
+                  <ul className="skills">
+                      {
+                        resumeData.skills && resumeData.skills.map((item) => {
+                          return(
+                            <li>
+                            <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                            </span><em>{item.skillname}</em>
+                            </li>
+                          )
+                        })
+                      }
 
-   			</div>
+                  </ul>
 
+                </div>
+              </div>
+
+            </div>
+          
          </div>
 
       </section>
