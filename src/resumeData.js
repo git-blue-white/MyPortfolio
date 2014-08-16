@@ -27,6 +27,7 @@ let resumeData = {
     "website":"",
     "education":[
       {
+        "imageurl":"images/universitymark.png",
         "UniversityName":"University of Zurich",
         "specialization":"The University of Zurich (UZH, German: Universität Zürich) is a public research university located in the city of Zürich, Switzerland. It is the largest university in Switzerland, with its 28,000 enrolled students.",
         "MonthOfPassing":"June",
@@ -34,11 +35,18 @@ let resumeData = {
         "Achievements":"B.Sc Informatics"
       }
     ],
-    "work":[
+    "work1":[
       {
         "CompanyName":"Tree Stones",
         "specialization":"Tree stones is a e-commerce development company and they focus on web development, digital strategy, etc.",
-        
+        "YearOfLeaving":"ongoing",
+        "Achievements":"Created front-end pages using HTML, CSS and Created database using MySQL and MongoDB. "
+      }
+    ],
+    "work2":[
+      {
+        "CompanyName":"Tree Stones1",
+        "specialization":"Tree stones is a e-commerce development company and they focus on web development, digital strategy, etc.",
         "YearOfLeaving":"ongoing",
         "Achievements":"Created front-end pages using HTML, CSS and Created database using MySQL and MongoDB. "
       }
