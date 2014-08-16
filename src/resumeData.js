@@ -28,7 +28,7 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"University of Zurich",
-        "specialization":"Zurich, Switzerland",
+        "specialization":"The University of Zurich (UZH, German: Universität Zürich) is a public research university located in the city of Zürich, Switzerland. It is the largest university in Switzerland, with its 28,000 enrolled students.",
         "MonthOfPassing":"June",
         "YearOfPassing":"2014",
         "Achievements":"B.Sc Informatics"
