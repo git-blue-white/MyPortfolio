@@ -40,26 +40,27 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
               {
                 resumeData.work1 && resumeData.work1.map((item) => {
-                  
                   return(
                     <div className="row item">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          {item.specialization}<br /><br />
+                          <span>&bull;</span> <em className="date">{item.YearOfLeaving}</em></p>
+                          {
+                            item.Achievements && item.Achievements.map((item) => {
+                              return(
+                                <p>- {item.context}</p>
+                              )
+                            })
+                          }
                        </div>
-
                     </div>
-
                   )
                 })
               }
-            </div> 
-            <div className="nine columns main-col">
+            </div>
+            <div className="nine columns main-col seconddiv"><br />
               {
                 resumeData.work2 && resumeData.work2.map((item) => {
                   return(
@@ -67,19 +68,44 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
-                          {item.Workhistory}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          {item.specialization}<br /><br />
+                          <span>&bull;</span> <em className="date">{item.YearOfLeaving}</em></p>
+                          {
+                            item.Achievements && item.Achievements.map((item) => {
+                              return(
+                                <p>- {item.context}</p>
+                              )
+                            })
+                          }
                        </div>
-
                     </div>
-
                   )
                 })
               }
-            </div> 
+            </div>
+            <div className="nine columns main-col"><br />
+              {
+                resumeData.work3 && resumeData.work3.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.CompanyName}</h3>
+                          <p className="info">
+                          {item.specialization}<br /><br />
+                          <span>&bull;</span> <em className="date">{item.YearOfLeaving}</em></p>
+                          {
+                            item.Achievements && item.Achievements.map((item) => {
+                              return(
+                                <p>- {item.context}</p>
+                              )
+                            })
+                          }
+                       </div>
+                    </div>
+                  )
+                })
+              }
+            </div>
          </div>
 
 

@@ -40,16 +40,39 @@ let resumeData = {
         "markurl":"images/logo-gray.svg",
         "CompanyName":"Tree Stones",
         "specialization":"Tree stones is a e-commerce development company and they focus on web development, digital strategy, etc.",
-        "YearOfLeaving":"ongoing",
-        "Achievements":"Created front-end pages using HTML, CSS and Created database using MySQL and MongoDB. "
+        "YearOfLeaving":"2014/07 - 2016/03",
+        "Achievements":[
+          {"context":"Created front-end pages using HTML, CSS, etc."},
+          {"context":"Designed and created database using MySQL and MongoDB."},
+          {"context":"Developed advanced functional pages using JS."},
+          {"context":"Created back-end using APIs with Node and Express."}
+        ]
       }
     ],
     "work2":[
       {
-        "CompanyName":"Tree Stones1",
-        "specialization":"Tree stones is a e-commerce development company and they focus on web development, digital strategy, etc.",
-        "YearOfLeaving":"ongoing",
-        "Achievements":"Created front-end pages using HTML, CSS and Created database using MySQL and MongoDB. "
+        "markurl":"images/logo-gray.svg",
+        "CompanyName":"Imaginary Cloud",
+        "specialization":"ImaginaryCloud is a software development and UX/UI Design Company. Their product developments are Web development, Mobile development and Data Science/Artificial Intelligence. ",
+        "YearOfLeaving":"2016/04 - 2019/08",
+        "Achievements":[
+          {"context":"Designed and Developed reusable UX/UI components using jQuery."},
+          {"context":"Designed and Created Databases using MongoDB."},
+          {"context":"Developed front-end pages using HTML, CSS and based on React/Redux."},
+          {"context":"Developed MVC back-end server using API, Node and Express. "}
+        ]
+      }
+    ],
+    "work3":[
+      {
+        "CompanyName":"Sintra Digital Business ",
+        "specialization":"ISintra Digital Business is a company for e-commerce development, UX/UI design, custom software development, and web development services. ",
+        "YearOfLeaving":"2016/04 - 2019/08",
+        "Achievements":[
+          {"context":"Designed and created Web service front-end pages using ReactJS/Redux and Typescript."},
+          {"context":"Created indexed database using MongoDB."},
+          {"context":"Developed MVC back-end with API."}
+        ]
       }
     ],
     "skillsDescription":"Your skills here",
@@ -68,22 +91,22 @@ let resumeData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/profilepic.jpg"
+        "imgurl":"images/profilepicxxx.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/profilepic.jpg"
+        "imgurl":"images/profilepicxxx.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/profilepic.jpg"
+        "imgurl":"images/profilepicxxx.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/profilepic.jpg"
+        "imgurl":"images/profilepicxxx.jpg"
       }
     ],
     "testimonials":[
